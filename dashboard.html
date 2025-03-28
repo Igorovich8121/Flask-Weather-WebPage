@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datu Vizualizācija</title>
+</head>
+<body>
+    <h1>Datu Vizualizācija</h1>
+    <img src="{{ url_for('static', filename='graphs/temp_chart.png') }}" alt="Temperature Trends">
+    <img src="{{ url_for('static', filename='graphs/histogram.png') }}" alt="Temperature Distribution">
+    <img src="{{ url_for('static', filename='graphs/boxplot.png') }}" alt="Humidity Analysis">
+    <br>
+    <a href="/">Atpakaļ uz sākumu</a>
+</body>
+</html>
